@@ -6,7 +6,7 @@ then produces a morning briefing using a local Ollama LLM.
 
 ## Stack
 - Python 3.11+
-- Ollama (local LLM, model: qwen2.5-coder:7b)
+- Ollama (local LLM, model: llama3.1:8b)
 - No external APIs yet — all tools use mock JSON data
 
 ## Project Structure

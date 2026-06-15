@@ -1,6 +1,4 @@
-def main():
-    print("Hello from second-brain-agent!")
-
+from agents import run_agent
 
 if __name__ == "__main__":
-    main()
+    run_agent()

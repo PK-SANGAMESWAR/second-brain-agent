@@ -2,7 +2,7 @@
 import ollama
 
 response = ollama.chat(
-    model="qwen2.5-coder:7b",
+    model="llama3.1:8b",
     messages=[{"role": "user", "content": "What's the weather in Paris?"}],
     tools=[{
         "type": "function",
